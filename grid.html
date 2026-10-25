@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap:15px;
+        }
+        .header{
+            background-color:lightseagreen;
+            color: beige;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        .nav{
+            background-color:lightslategray;
+            color:navy;
+            padding:20px;
+            text-align: left;
+            font-size: 1.5rem;
+        }
+        .article{
+            background-color: lightgreen;
+            color: brown;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        .ads{
+            background-color: hotpink;
+            color:maroon;
+            padding: 20px;
+            text-align: right;
+            font-size: 1.5rem;
+        }
+        .footer{
+            background-color: greenyellow;
+            color:darkgreen;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="header">header</div>
+        <div class="header">header</div>
+        <div class="header">header</div>
+        <div class="nav">nav</div>
+        <div class="article">article</div>
+        <div class="article">article</div>
+          <div class="ads">ads</div>
+        <div class="article">article</div>
+        <div class="article">article</div>
+        <div class="footer">footer</div>
+        <div class="footer">footer</div>
+        <div class="footer">footer</div>
+    </div>
+
+        <br><br><br><br><br><br>
+    <div class="grid-container">
+        <div class="nav">nav</div>
+        <div class="header">header</div>
+        <div class="header">header</div>
+        <div class="nav">nav</div>
+        <div class="article">article</div>
+        <div class="article">article</div>
+          <div class="nav">nav</div>
+        <div class="footer">footer</div>
+        <div class="footer">footer</div>
+    </div>
+</body>
+</html>
